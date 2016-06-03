@@ -1,0 +1,7 @@
+<form {{action "submit" form on="submit"}}>
+  {{input placeholder="New Item..." class="input-group form-control" value=form.content}}
+</form>
+{{!-- the 'on="submit"' part is like the jQuery onClick,
+      fire the 'action "submit"',
+      and pass it 'form'
+      --}}
